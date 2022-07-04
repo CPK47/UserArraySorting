@@ -1,0 +1,15 @@
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.csproj.AssemblyReference.cache
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.AssemblyInfoInputs.cache
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.AssemblyInfo.cs
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.csproj.CoreCompileInputs.cache
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\bin\Debug\net6.0\UserArraySorting.exe
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\bin\Debug\net6.0\UserArraySorting.deps.json
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\bin\Debug\net6.0\UserArraySorting.runtimeconfig.json
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\bin\Debug\net6.0\UserArraySorting.dll
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\bin\Debug\net6.0\UserArraySorting.pdb
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.dll
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\refint\UserArraySorting.dll
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.pdb
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\UserArraySorting.genruntimeconfig.cache
+C:\Users\Chris\Documents\Coding\Breva\UserArraySorting\UserArraySorting\obj\Debug\net6.0\ref\UserArraySorting.dll
