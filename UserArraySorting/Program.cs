@@ -15,9 +15,15 @@
                 int size = ArraySize();
                 //Array createdArray is output of CreateArray function
                 int[] createdArray = CreateArray();
+                //User chooses what sort to use on array
                 WhatSort();
                 //Constructor
                 SortTypes sorter;
+                sorter.SortArray();
+                //User asked would they like to do another array sort
+                Again();
+                
+                
                 //Int sortType is output of WhatSort function
                 int sortType;
 
@@ -68,27 +74,30 @@
                         Console.WriteLine("\t\t\t2. Selection Sort\n");
                         Console.WriteLine("\t\t\t3. Insertion Sort\n\n");
                         sortType = int.Parse(Console.ReadLine());
+                    
                         switch (sortType)
                         {
                             case 1: sorter = new BubbleSort(createdArray); break;
                             case 2: sorter = new SelectionSort(createdArray); break;
                             case 3: sorter = new InsertionSort(createdArray); break;
-                            default: WhatSort(); break;
+                            default: ; Error(); WhatSort(); break;
                         }
                     }
                     catch { Error(); WhatSort(); }
-                    sorter.SortArray();
-                    Again();
                 }
                 void PrintArray()       //Function to print array
                 {
-                    Console.Write("\t\t     ");
+                    Console.Write("\t\t");
                     for (int i = 0; i < createdArray.Length; i++)
                     {
-                        Console.Write(createdArray[i] + " ");
+                        //If array integer is less that 10, a space will be entered before the number to evenly space it
+                        if (createdArray[i] < 10)
+                        { Console.Write(" " + createdArray[i] + " "); }
+                        else
+                        { Console.Write(createdArray[i] + " "); }
                         //If statement - if i + 1 is divisible by 10 with no remainder.
                         //Write newline for next 10 integers of array.
-                        if ((i + 1) % 10 == 0) { Console.Write("\n\t\t     "); }
+                        if ((i + 1) % 10 == 0) { Console.Write("\n\t\t"); }
                     }
                     Console.ResetColor();
                     Console.WriteLine("\n\n\t\tPlease press a key to continue");
