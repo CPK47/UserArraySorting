@@ -10,7 +10,7 @@ namespace UserArraySorting
     {
         public BubbleSort(int[] numberArray) : base(numberArray) { arr = numberArray; }
         
-        protected override void SortArray()
+        public override void SortArray()
         {
             Console.Clear();
             //where 'i' is location of i'th unsorted element

@@ -10,7 +10,7 @@ namespace UserArraySorting
     {
         public InsertionSort(int[] numberArray) : base(numberArray) { arr = numberArray; }
 
-        protected override void SortArray()            //Overriding of SortArray() from Parent/base
+        public override void SortArray()            //Overriding of SortArray() from Parent/base
         {
             Console.Clear();
             //i set to array length -1. Whilst i larger that 0, reduce by 1.
