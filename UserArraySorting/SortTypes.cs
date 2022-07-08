@@ -41,7 +41,7 @@ namespace UserArraySorting
         {
             Console.WriteLine("\nThank you for using our Generate and Sort program. Your final sorted array is below.");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("\t\t");
+            Console.Write("\t\t\t   ");
             for (int i = 0; i < arr.Length; i++)
             {
                 //If array integer is less that 10, a space will be entered before the number to evenly space it
@@ -50,10 +50,10 @@ namespace UserArraySorting
                 else
                 { Console.Write(arr[i] + " "); }
                 //Code will start new line once 10 elements of array printed
-                if ((i + 1) % 10 == 0) { Console.Write("\n\t\t"); }
+                if ((i + 1) % 10 == 0) { Console.Write("\n\t\t\t   "); }
             }
             Console.ResetColor();
-            Console.WriteLine("\n\n\t\tPlease press a key to continue");
+            Console.WriteLine("\n\n\t\t\t   Please press a key to continue");
             Console.ReadKey();
             Console.Clear();
         }
