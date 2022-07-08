@@ -10,11 +10,11 @@ namespace UserArraySorting
     {
         protected int[] arr;
 
-        protected SortTypes(int[] numberArray)
+        public SortTypes(int[] numberArray)
         {
             arr = numberArray;
         }
-        protected abstract void SortArray();         //Blank Overrideable abstract method for Sorting Arrays
+        public abstract void SortArray();         //Blank Overrideable abstract method for Sorting Arrays
 
         protected void PrintArray()            //Overrideable virtual method for Printing Arrays
         {
