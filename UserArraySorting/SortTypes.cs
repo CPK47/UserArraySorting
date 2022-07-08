@@ -19,9 +19,9 @@ namespace UserArraySorting
         protected void PrintArray()            //Overrideable virtual method for Printing Arrays
         {
 
-            Console.WriteLine($"\n\t   The array looks like this after this run.");
+            Console.WriteLine($"\n\t   The array is now being sorted...");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.Write("\t\t");
+            Console.Write("\t   ");
             for (int i = 0; i < arr.Length; i++)
             {
                 //If array integer is less that 10, a space will be entered before the number to evenly space it
@@ -30,11 +30,12 @@ namespace UserArraySorting
                 else
                 { Console.Write(arr[i] + " "); }
                 //Code will start new line once 10 elements of array printed
-                if ((i + 1) % 10 == 0) { Console.Write("\n\t\t"); }
+                if ((i + 1) % 10 == 0) { Console.Write("\n\t   "); }
             }
             Console.ResetColor();
-            Console.WriteLine("\n\n\t\tPlease press a key to continue");
-            Console.ReadKey();
+            Console.WriteLine("\n\n\t\tSort will continue...");
+            
+            Thread.Sleep(1000);
             Console.Clear();
         }
         protected void PrintArrayFinal()       //Overrideable virtual method to print the final sorted array
