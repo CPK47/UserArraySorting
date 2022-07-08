@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserArraySorting
 {
-    public class SortTypes
+    public abstract class SortTypes
     {
         protected int[] arr;
 
@@ -14,9 +14,9 @@ namespace UserArraySorting
         {
             arr = numberArray;
         }
-        public virtual void SortArray() { }         //Blank Overrideable virtual method for Sorting Arrays
+        public abstract void SortArray();         //Blank Overrideable abstract method for Sorting Arrays
 
-        public virtual void PrintArray()            //Overrideable virtual method for Printing Arrays
+        protected virtual void PrintArray()            //Overrideable virtual method for Printing Arrays
         {
 
             Console.WriteLine($"\n\t   The array looks like this after this run.");
@@ -33,7 +33,7 @@ namespace UserArraySorting
             Console.ReadKey();
             Console.Clear();
         }
-        public virtual void PrintArrayFinal()       //Overrideable virtual method to print the final sorted array
+        protected virtual void PrintArrayFinal()       //Overrideable virtual method to print the final sorted array
         {
             Console.WriteLine("\nThank you for using our Generate and Sort program. Your final sorted array is below.");
             Console.ForegroundColor = ConsoleColor.Green;
