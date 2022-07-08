@@ -10,7 +10,7 @@ namespace UserArraySorting
     {
         public SelectionSort(int[] numberArray) : base(numberArray) { arr = numberArray; }
 
-        public override void SortArray()        //Overriding of SortArray() from Parent/base
+        protected override void SortArray()        //Overriding of SortArray() from Parent/base
         {
             Console.Clear();
             // i is Array length. While i is greater than 0. i decreases.
