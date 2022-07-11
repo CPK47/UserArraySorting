@@ -30,7 +30,7 @@
                 void Welcome()          //Welcome function
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\t  Welcome to CPK's Sort-tacular Array Creator and Sorter!\t\t");
+                    Console.WriteLine("\t  Welcome to CPK's Array Creator and Sorter!\t\t");
                     Console.WriteLine("\n\n");
                     Console.ResetColor();
                 }
@@ -72,7 +72,9 @@
                         Console.WriteLine("\n\nPlease enter the array type you would like to select: \n\n");
                         Console.WriteLine("\t\t\t1. Bubble Sort\n");
                         Console.WriteLine("\t\t\t2. Selection Sort\n");
-                        Console.WriteLine("\t\t\t3. Insertion Sort\n\n");
+                        Console.WriteLine("\t\t\t3. Insertion Sort\n");
+                        Console.WriteLine("\t\t\t4. Merge Sort\n");
+                        Console.WriteLine("\t\t\t5. Quick Sort\n\n");
                         sortType = int.Parse(Console.ReadLine());
                     
                         switch (sortType)
@@ -80,6 +82,8 @@
                             case 1: sorter = new BubbleSort(createdArray); break;
                             case 2: sorter = new SelectionSort(createdArray); break;
                             case 3: sorter = new InsertionSort(createdArray); break;
+                            case 4: sorter = new MergeSort(createdArray); break;
+                            case 5: sorter = new QuickSort(createdArray); break;
                             default: ; Error(); WhatSort(); break;
                         }
                     }
@@ -123,7 +127,7 @@
                 void Goodbye()              //Function to say goodbye to user and end the program
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("\t\tThank you for using CPK's Array Generator and Sorter!\n");
+                    Console.WriteLine("\t\tThank you for using CPK's Array Creator and Sorter!\n");
                     Console.ResetColor();
                     Console.WriteLine("\t\t\tPress any key to end the program.");
                     Console.ReadKey();

@@ -58,5 +58,9 @@ namespace UserArraySorting
             Console.ReadKey();
             Console.Clear();
         }
+        protected virtual void PrintArrayFinal(int[] array) { }
+
+        protected virtual void PrintArray(int[] array) { }
+
     }
 }
